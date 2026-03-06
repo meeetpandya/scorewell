@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Scorewell",
+    "slug": "scorewell",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "scorewell",
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "Scorewell needs camera access for live marks scanning."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["CAMERA", "VIBRATE"]
+    }
+  }
+}
